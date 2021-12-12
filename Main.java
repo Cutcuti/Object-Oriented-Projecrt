@@ -87,7 +87,7 @@ public class Main {
 
             }
         });
-        JButton Log = new JButton(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/arrow-24-32.png"));
+        JButton Log = new JButton(new ImageIcon("Assets/icons/arrow-24-32.png"));
         Log.setBorder(emptyBorder);
         Log.setBackground(Color.decode("#020c4d"));
         Log.addMouseListener(new MouseListener() {
@@ -134,9 +134,9 @@ public class Main {
         logpan.setLayout(new GridLayout(4,1));
         lbl.add(i);
         logpan.add(lbl);
-        inp1.add(new JLabel(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/guest-32.png")));
+        inp1.add(new JLabel(new ImageIcon("Assets/icons/guest-32.png")));
         inp1.add(Usr);
-        inp2.add(new JLabel(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/lock-32.png")));
+        inp2.add(new JLabel(new ImageIcon("Assets/icons/lock-32.png")));
         inp2.add(Pw);
         logpan.add(inp1);
         logpan.add(inp2);
@@ -228,7 +228,7 @@ public class Main {
         win1toptknpnl.add(tknmsg);
         win1mid.setLayout(new GridLayout(1,0));
         JPanel win1toptknbutpnl = new JPanel();
-        JButton addtkn = new JButton(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/add-32.png"));
+        JButton addtkn = new JButton(new ImageIcon("Assets/icons/add-32.png"));
         addtkn.addMouseListener(new MouseListener() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -258,7 +258,7 @@ public class Main {
         });
         addtkn.setBackground(Color.decode("#065e00"));
         win1toptknbutpnl.add(addtkn);
-        JButton helpme = new JButton(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/help-32.png"));
+        JButton helpme = new JButton(new ImageIcon("Assets/icons/help-32.png"));
         helpme.setBackground(Color.decode("#d18800"));
         win1toptknbutpnl.add(helpme);
         win1toptknpnl.setLayout(new GridLayout(0,1));
@@ -270,7 +270,7 @@ public class Main {
         win1topq.add(win1msgtop);
         win1topq.add(win1toptknpnl);
         win1top.add(win1topq);
-        JButton washbutton = new JButton(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/icons8-washing-machine-100.png"));
+        JButton washbutton = new JButton(new ImageIcon("Assets/icons/icons8-washing-machine-100.png"));
         washbutton.addMouseListener(new MouseListener() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -298,7 +298,7 @@ public class Main {
             }
         });
 
-        JButton drybutton = new JButton(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/icons8-tumble-dryer-100.png"));
+        JButton drybutton = new JButton(new ImageIcon("Assets/icons/icons8-tumble-dryer-100.png"));
         drybutton.addMouseListener(new MouseListener() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -362,7 +362,7 @@ public class Main {
         JPanel w = new JPanel();
         wash.add(e);
         w.add(jComboBox);
-        JButton dont = new JButton(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/arrow-24-32.png"));
+        JButton dont = new JButton(new ImageIcon("Assets/icons/arrow-24-32.png"));
         dont.setBackground(Color.decode("#020c4d"));
         dont.setBorder(emptyBorder);
         dont.addMouseListener(new MouseListener() {
@@ -427,7 +427,7 @@ public class Main {
         w.add(jComboBox);
         w.add(jCombBox);
         w.setLayout(new FlowLayout(FlowLayout.CENTER));
-        JButton dont = new JButton(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/power-3-32.png"));
+        JButton dont = new JButton(new ImageIcon("Assets/icons/power-3-32.png"));
         dont.setBackground(Color.decode("#020c4d"));
         dont.setBorder(emptyBorder);
         dont.addMouseListener(new MouseListener() {
@@ -445,13 +445,13 @@ public class Main {
 
             @Override
             public void mousePressed(MouseEvent e) {
-                dont.setIcon(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/power-3-32 (1).png"));
+                dont.setIcon(new ImageIcon("Assets/icons/power-3-32 (1).png"));
                 dont.setBackground(Color.decode("#020c4d"));
             }
 
             @Override
             public void mouseReleased(MouseEvent e) {
-                dont.setIcon(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/power-3-32.png"));
+                dont.setIcon(new ImageIcon("Assets/icons/power-3-32.png"));
                 dont.setBackground(Color.decode("#020c4d"));
             }
 
@@ -493,7 +493,7 @@ public class Main {
         JPanel w = new JPanel();
         wash.add(e);
         w.add(jComboBox);
-        JButton dont = new JButton(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/arrow-24-32.png"));
+        JButton dont = new JButton(new ImageIcon("Assets/icons/arrow-24-32.png"));
         dont.setBackground(Color.decode("#020c4d"));
         dont.setBorder(emptyBorder);
         dont.addMouseListener(new MouseListener() {
@@ -557,7 +557,7 @@ public class Main {
         w.add(jComboBox);
         w.add(jCombBox);
         w.setLayout(new FlowLayout(FlowLayout.CENTER));
-        JButton dont = new JButton(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/power-3-32.png"));
+        JButton dont = new JButton(new ImageIcon("Assets/icons/power-3-32.png"));
         dont.setBackground(Color.decode("#020c4d"));
         dont.setBorder(emptyBorder);
         dont.addMouseListener(new MouseListener() {
@@ -572,13 +572,13 @@ public class Main {
 
             @Override
             public void mousePressed(MouseEvent e) {
-                dont.setIcon(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/power-3-32 (1).png"));
+                dont.setIcon(new ImageIcon("Assets/icons/power-3-32 (1).png"));
                 dont.setBackground(Color.decode("#020c4d"));
             }
 
             @Override
             public void mouseReleased(MouseEvent e) {
-                dont.setIcon(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/power-3-32.png"));
+                dont.setIcon(new ImageIcon("Assets/icons/power-3-32.png"));
                 dont.setBackground(Color.decode("#020c4d"));
             }
 
@@ -613,10 +613,10 @@ public class Main {
         x.getContentPane().setBackground(Color.decode("#020c4d"));
         JLabel xs = new JLabel("Type in no. of Tokens to add?");
         xs.setForeground(Color.white);
-        JButton p = new JButton(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/arrow-24-32.png"));
+        JButton p = new JButton(new ImageIcon("Assets/icons/arrow-24-32.png"));
         p.setBorder(emptyBorder);
         p.setBackground(Color.decode("#020c4d"));
-        JLabel sa = new JLabel(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/coins-32.png"));
+        JLabel sa = new JLabel(new ImageIcon("Assets/icons/coins-32.png"));
         JTextField s = new JTextField("No. of Tokens");
         s.setEditable(false);
         s.addMouseListener(new MouseListener() {
@@ -687,7 +687,7 @@ public class Main {
         g.setBackground(Color.decode("#020c4d"));
         f.setLayout(new GridLayout(1,3));
         f.setBackground(Color.decode("#020c4d"));
-        JLabel m = new JLabel(new ImageIcon("C:/Users/Harshiv/IdeaProjects/Laundry Machine App/src/Assets/icons/error-3-48.png"));
+        JLabel m = new JLabel(new ImageIcon("Assets/icons/error-3-48.png"));
         JLabel d = new JLabel("Invalid Login credentials");
 
         JLabel ew = new JLabel("");
